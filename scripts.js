@@ -1,3 +1,4 @@
-function myFunction() {
-    console.info('This is an example!');
+function main() {
+    eruda.init();
+    hljs.highlightAll();
 };
