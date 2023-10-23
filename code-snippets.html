@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en-AU" class="themeable">
 <!-- English (Australia) -->
 
 <head>
@@ -8,7 +8,8 @@
     <title>defowler2OO5 | code snippets</title>
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/defowler2005/defowler2005/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/defowler2005/defowler2005/styles.css">
-    <script src="https://cdn.jsdelivr.net/gh/defowler2005/defowler2005/scripts.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/defowler2005/defowler2005@d8655e70c09f1778ffeb01bb9fa2e798ceffbb25/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
     <meta property="og:locale" content="en_AU">
     <meta property="og:image" content="https://cdn.jsdelivr.net/gh/defowler2005/defowler2005/favicon.png">
@@ -17,27 +18,41 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/base16/windows-nt.min.css">
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body onload="main()" class="themeable">
+<body onload="main()">
     <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
     <header id="header">
         <nav id="navbar">
             <button class="navBtns">Section 1
                 <div class="dropdown-content">
-                    <a href="./index.html">Home</a>
-                    <a href="./code-snippets.html">Code snippets</a>
+                    <a href="https://defowler2005.github.io/defowler2005/index.html">Home</a>
+                    <a href="https://defowler2005.github.io/defowler2005/code-snippets.html">Code snippets</a>
                 </div>
             </button>
         </nav>
     </header>
 
-    <main id="main"></main>
+    <main id="main">
+        <div class="code-types">
+            <h3>Minecraft</h3>
+            <button class="navBtns" onclick="showScriptAPI()">Script API</button>
+            <button class="navBtns" onclick="showJSONUI()">JSON-UI</button>
+        </div>
+
+        <div id="scriptAPI" style="display: none;">
+            <h2>Minecraft script API code examples</h2>
+        </div>
+
+        <div id="jsonUI" style="display: none;">
+            <h2>Minecraft JSON UI code examples</h2>
+        </div>
+    </main>
 
     <footer id="footer">
-        <p>&copy; 2023 defowler2OO5, You can take any with no restrictions.</p>
+        <p style="color:#FF4500">&copy; 2023 defowler2OO5, You can take any with no restrictions.</p>
     </footer>
-
 </body>
 
 </html>
