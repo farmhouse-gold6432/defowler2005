@@ -120,6 +120,23 @@
     color: white;
 }
 
+.code-types {
+    background-color: #FF4500;
+    color: white;
+    width: 200px;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    font-size: 16px;
+}
+
+#scriptAPI,
+#jsonUI {
+    text-align: center;
+}
+
 .dark-theme .dropdown-content a:hover {
     background-color: #ff0000;
 }
