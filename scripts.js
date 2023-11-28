@@ -13,11 +13,11 @@ function toggleTheme() {
     localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
 };
 
-function showScriptAPI () {
+function showScriptAPI() {
     document.getElementById("scriptAPI").style.display = "block";
     document.getElementById("jsonUI").style.display = "none";
-}
-function showJSONUI () {
+};
+function showJSONUI() {
     document.getElementById("scriptAPI").style.display = "none";
     document.getElementById("jsonUI").style.display = "block";
-}
+};
