@@ -148,8 +148,7 @@
     text-align: center;
 }
 
-.dark-theme .code-types,
-.dark-theme .grid-item {
+.dark-theme .code-types {
     background-color: #2C2C2C;
     color: white;
 }
