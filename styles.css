@@ -95,7 +95,6 @@
     }
 }
 
-/* Dark Theme Styles */
 .dark-theme {
     background-color: #2C2C2C;
     color: white;
@@ -123,21 +122,17 @@
     background-color: #CC0000;
 }
 
-.code-types {
-    background-color: #FF4500;
-    color: white;
-    width: 200px;
+.code-types,
+.grid-item {
+    background-color: white;
+    color: #555;
+    width: 385px;
     padding: 12px 24px;
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
     position: relative;
     font-size: 16px;
-}
-
-#scriptAPI,
-#jsonUI {
-    text-align: center;
 }
 
 .grid {
@@ -149,9 +144,12 @@
 
 .grid-item {
     border: 1px solid #555;
-    width: 385px;
     height: 200px;
-    padding: 10px;
     text-align: center;
+}
+
+.dark-theme .code-types,
+.dark-theme .grid-item {
+    background-color: #2C2C2C;
     color: white;
 }
